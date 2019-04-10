@@ -33,6 +33,15 @@ public class UI extends PApplet
 			
 	}
 	
+	public void loadColours() 
+	{
+		Table table = loadTable("colours.csv", "header");
+        for(TableRow tr:table.rows())
+        {
+            Colour c = new Colour(tr);
+            colors.add(c);
+        }
+	}
 	
 
 	public void draw()
