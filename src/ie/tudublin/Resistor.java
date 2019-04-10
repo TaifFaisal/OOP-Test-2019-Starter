@@ -17,11 +17,12 @@ public class Resistor
 	public Resistor(processing.data.TableRow tr)
     {
 		
-        value = ((processing.data.TableRow) tr).getInt("value");
-        ones = ((processing.data.TableRow) tr).getInt("ones");
-        tens = ((processing.data.TableRow) tr).getInt("tens");
-        hundreds = ((processing.data.TableRow) tr).getInt("hunderds");
-    }
+		value = ((processing.data.TableRow) tr).getInt("");
+		// hundreds= ((processing.data.TableRow) tr).getInt(value / 100);
+		// tens = ((processing.data.TableRow) tr).getInt(value - (hundreds * 100)) / 10;
+		// ones = ((processing.data.TableRow) tr).getInt(value - ((hundreds * 100)  + (tens * 10)));
+	}
+	
 
 	
 
