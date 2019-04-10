@@ -9,6 +9,7 @@ import processing.data.TableRow;
 public class UI extends PApplet
 {
 	ArrayList<Colour> colors = new ArrayList<Colour>();
+	
 	public void separate(int value)
 	{
 		int hundreds = (value / 100);
