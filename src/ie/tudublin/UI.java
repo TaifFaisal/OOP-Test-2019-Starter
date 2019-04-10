@@ -30,7 +30,8 @@ public class UI extends PApplet
 
 	public void setup() 
 	{
-			
+		loadColours();
+		printColours();
 	}
 	
 	public void loadColours() 
@@ -52,7 +53,18 @@ public class UI extends PApplet
         }
 	}
 	
+	String colour;
+	int colourvalue;
 
+	public Colour findColor(int value)
+	{
+
+		Colour c = colors.get(value);
+        colour =  c.getColour();
+		colourvalue =  c.getValue();
+		//return colour;
+
+	}
 	public void draw()
 	{	
 			
