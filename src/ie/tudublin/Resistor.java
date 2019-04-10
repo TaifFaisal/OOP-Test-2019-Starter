@@ -16,6 +16,7 @@ public class Resistor
 
 	public Resistor(processing.data.TableRow tr)
     {
+		
         value = ((processing.data.TableRow) tr).getInt("value");
         ones = ((processing.data.TableRow) tr).getInt("ones");
         tens = ((processing.data.TableRow) tr).getInt("tens");
