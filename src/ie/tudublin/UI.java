@@ -9,7 +9,9 @@ import processing.data.TableRow;
 public class UI extends PApplet
 {
 	ArrayList<Colour> colors = new ArrayList<Colour>();
-	
+	ArrayList<Resistor> resistors = new ArrayList<Resistor>();
+
+
 	public void separate(int value)
 	{
 		int hundreds = (value / 100);
@@ -57,15 +59,15 @@ public class UI extends PApplet
 	String colour;
 	int colourvalue;
 
-	public Colour findColor(int value)
-	{
+	// public Colour findColor(int value)
+	// {
 
-		Colour c = colors.get(value);
-        colour =  c.getColour();
-		colourvalue =  c.getValue();
-		//return colour;
+	// 	Colour c = colors.get(value);
+    //     colour =  c.getColour();
+	// 	colourvalue =  c.getValue();
+	// 	//return colour;
+	// }
 
-	}
 	public void draw()
 	{	
 			

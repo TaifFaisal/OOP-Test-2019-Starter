@@ -9,10 +9,10 @@ public class Resistor
 	public int tens;
 	public int hundreds;
 	
-	public void Resistor(int value, int ones, int tens, int hundreds)
-	{
+	// public void Resistor(int value, int ones, int tens, int hundreds)
+	// {
 		
-	}
+	// }
 
 	public Resistor(processing.data.TableRow tr)
     {
@@ -22,11 +22,6 @@ public class Resistor
         hundreds = ((processing.data.TableRow) tr).getInt("hunderds");
     }
 
-
-	// public String toString()
-    // {
-    //     return  colour +  "\t" + r + "\t" + g + "\t" + b + "\t" + value;
-	// }
 	
 
 	/**

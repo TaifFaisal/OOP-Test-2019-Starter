@@ -11,15 +11,15 @@ public class Colour
 	public int b;
 	public int value;
 	
-	public void Colour(String colour, int r, int g, int b, int value)
-	{
-		this.colour = colour;
-		this.r = r;
-		this.g = g;
-		this.b = b;
-		this.value = value;
+	// public void Colour(String colour, int r, int g, int b, int value)
+	// {
+	// 	this.colour = colour;
+	// 	this.r = r;
+	// 	this.g = g;
+	// 	this.b = b;
+	// 	this.value = value;
 		
-	}
+	// }
 
 	// public Colour(processing.data.TableRow row)
 	// {
