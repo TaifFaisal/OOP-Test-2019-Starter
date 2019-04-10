@@ -42,6 +42,15 @@ public class UI extends PApplet
             colors.add(c);
         }
 	}
+	public void printColours()
+	{
+		for(int i=0; i<colors.size(); i++)
+        {
+           
+            Colour c = colors.get(i);
+            System.out.println(c.getColour()+ c.getR()+ c.getG()+ c.getB()+ c.getValue());
+        }
+	}
 	
 
 	public void draw()
